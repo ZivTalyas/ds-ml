@@ -1,3 +1,3 @@
-# 🧠 Data Science & Machine Learning Project
+# 📚 Data Science & Machine Learning Projects
 
-This repository contains code, data, and documentation for a machine learning project focused on exploring, modeling, and evaluating data-driven solutions.
+This repository contains multiple data science and machine learning projects. Each folder contains an end-to-end solution including data preprocessing, modeling, and evaluation.
