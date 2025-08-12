@@ -15,7 +15,6 @@ By comparing the benchmark model with a lean alternative, this project aims to i
 - **Goal**: Determine whether the lean model can achieve comparable accuracy with reduced computational complexity.
 ## Project Structure
 - `vgg16_vs_lean_classification.ipynb` – Main notebook containing data preprocessing, model training, evaluation, and comparison.
-- `data/` – Dataset used for training and testing (not included in this repository; see dataset link below).
 - `README.md` – Project documentation.
 - `LICENSE` – Project license file (aligned with dataset license).
 ## Dataset Attribution
