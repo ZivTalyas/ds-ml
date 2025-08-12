@@ -9,10 +9,13 @@ In many real-world scenarios, especially in industries like agriculture, manufac
 For example, a fruit supplier may need to automatically classify products into **sellable** vs. **non-sellable** categories using an automated quality inspection system.  
 While a large benchmark model (e.g., VGG) might provide excellent accuracy, its high computational demands may make it unsuitable for on-device or real-time applications.  
 By comparing the benchmark model with a lean alternative, this project aims to identify whether we can maintain accuracy while drastically reducing resource requirements — enabling deployment in edge devices, mobile systems, or low-cost environments.
-## Why Compare VGG vs. Lean?
-- **VGG Benchmark Model**: Acts as a performance reference point; widely used in academic and research contexts.
-- **Lean Model**: Designed for resource efficiency; ideal for scenarios where speed, hardware constraints, or cost make large models impractical.
+## Why Compare VGG16 vs. Lean?
+- **VGG16**: Acts as a performance reference point; widely used in academic and research contexts.
+- **MobileNet**: Designed for resource efficiency; ideal for scenarios where speed, hardware constraints, or cost make large models impractical.
 - **Goal**: Determine whether the lean model can achieve comparable accuracy with reduced computational complexity.
+## Results
+Results
+The results show that the lightweight MobileNet model can achieve accuracy comparable to the larger VGG16 benchmark. MobileNet’s significantly smaller size and lower computational demands make it well-suited for real-world applications requiring fast, efficient, and on-device classification. This demonstrates that lean models can be practical alternatives to heavy architectures without sacrificing performance.
 ## Project Structure
 - `vgg16_vs_lean_classification.ipynb` – Main notebook containing data preprocessing, model training, evaluation, and comparison.
 - `README.md` – Project documentation.
